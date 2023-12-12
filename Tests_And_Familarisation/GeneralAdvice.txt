@@ -1,0 +1,4 @@
+taghtiya si7iya
+
+
+extract closest sentences then send to chat gpt 	or other similar model
