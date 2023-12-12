@@ -16,4 +16,4 @@ https://www.youtube.com/watch?v=TRjq7t2Ms5I
 
 Chinwiya : 
 
-- scalar is a zero rank tensor, and a vector is a first rank tensor.
+- scalar is a zero rank tensor, and a vector is a first rank tensor. (No longer Chinwiya)
