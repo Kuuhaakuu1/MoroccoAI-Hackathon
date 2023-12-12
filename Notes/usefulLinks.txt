@@ -1,0 +1,19 @@
+https://platform.openai.com/tokenizer
+https://towardsai.net/p/news/jais-a-major-leap-forward-in-arabic-english-large-language-models
+https://huggingface.co/core42/jais-13b
+https://huggingface.co/spaces/facebook/seamless_m4t
+https://github.com/facebookresearch/seamless_communication?tab=License-1-ov-file
+https://huggingface.co/spaces/mteb/leaderboard
+https://docs.cohere.com/docs/embeddings
+https://chatgen.ai/blog/retrieval-augmented-generation-rag-part-1/
+https://symbl.ai/developers/blog/implementing-retrieval-augmented-generation-rag-with-nebula-a-comprehensive-guide/
+https://www.youtube.com/watch?v=TRjq7t2Ms5I
+
+
+
+
+
+
+Chinwiya : 
+
+- scalar is a zero rank tensor, and a vector is a first rank tensor.
