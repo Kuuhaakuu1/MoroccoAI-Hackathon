@@ -1,0 +1,11 @@
+Day 1 :
+0 Knowledge 
+=> Oh Wow I understand NLP (Tokenize/Tag/IndentifyEntity/Stemm/Lemmatize/Sentiment) 
+=> Huh, RAGs. Sounds Cool 
+=> We have a project idea now!
+Day 2 :
+Understand some general Concepts (happy/proud)
+=> what are RAGs (Llama)
+=> Arabic NLP challenges and how they work
+=> hugging face is a GREAT Website lol
+=> Trying to apply Llama (maybe)
