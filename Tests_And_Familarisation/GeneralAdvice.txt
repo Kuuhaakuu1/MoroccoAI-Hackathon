@@ -2,3 +2,12 @@ taghtiya si7iya
 
 
 extract closest sentences then send to chat gpt 	or other similar model
+
+sometimes it also makes sense to first split the text to sentence and then do chunking to prevent a cut in the middle of the sentence
+
+
+General tip for everyone : 
+If you want to scrap a website and you are not sure if it is okay, plz check the robots.txt file.
+for example : https://www.alloschool.com/robots.txt
+this will give you information on pages that are allowed to be scrapped. 
+Happy hacking ⚒️
