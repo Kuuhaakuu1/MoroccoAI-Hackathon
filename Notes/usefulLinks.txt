@@ -8,7 +8,7 @@ https://docs.cohere.com/docs/embeddings
 https://chatgen.ai/blog/retrieval-augmented-generation-rag-part-1/
 https://symbl.ai/developers/blog/implementing-retrieval-augmented-generation-rag-with-nebula-a-comprehensive-guide/
 https://www.youtube.com/watch?v=TRjq7t2Ms5I
-
+https://docs.llamaindex.ai/en/stable/getting_started/customization.html // to customize Llama RAG
 
 
 
