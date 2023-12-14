@@ -21,8 +21,8 @@ options = webdriver.ChromeOptions()
 options.add_argument('--headless')  # Run in headless mode, without a visible browser window
 options.add_argument('--disable-gpu')
 driver = webdriver.Chrome(options=options)
-driver.get(url_list[5])#10 -- last scraped : 5 ||| next : 6
-WebDriverWait(driver, 50).until(
+driver.get(url_list[10])#10 -- last scraped : 5 ||| next : 
+WebDriverWait(driver, 350).until(
     EC.presence_of_element_located((By.XPATH, "//h1[@class='sc-eWVKcp fMRhjG']"))
 )
 content = driver.page_source
