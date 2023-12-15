@@ -18,7 +18,7 @@ with st.sidebar:
     ## About:
     This app is an LLM-Powered chatbot built using:
     - [Streamlit](https://streamlit.io/)
-    - [LangChain](https://www.langchain.com/)
+    - [LlamaIndex](https://www.llamaindex.ai/)
     - [OpenAI](https://platform.openai.com/docs/models) LLM Model
     - [Idarati dataset](https://www.idarati.ma/)
     ''')
