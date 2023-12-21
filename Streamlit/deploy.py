@@ -17,6 +17,8 @@ with st.sidebar:
     st.title('الذكاء الاصطناعي أشبال')
     st.markdown('''
     ## معلومات عنا:
+    - [Achbal Mail](mailto:achbal.business@gmail.com)
+    
     هذا التطبيق هو تواصل مع الذكاء الاصطناعي أشبال مدعومة ب (LLM) تم بناؤه باستخدام:
     - [Streamlit](https://streamlit.io/)
     - [OpenAI](https://platform.openai.com/docs/models) LLM Model
@@ -68,10 +70,18 @@ for message in st.session_state.messages: # Display the prior chat messages
 if st.session_state.messages[-1]["role"] != "assistant":
     with st.chat_message("assistant"):
         with st.spinner("جارٍ التفكير..."):
-            response = st.session_state.chat_engine.chat(prompt)
-            st.write(response.response)
-            message = {"role": "assistant", "content": response.response}
-            st.session_state.messages.append(message) # Add response to message history        
+            try:
+                response = st.session_state.chat_engine.chat(prompt)
+                st.write(response.response)
+                message = {"role": "assistant", "content": response.response}
+                st.session_state.messages.append(message) # Add response to message history
+            except  Exception as e:
+                st.error("!تم استنفاد طلبات مفتاح المجانية. يرجى النظر في الانتظار لمدة دقيقة")
+                st.error("!في هذه الأثناء، فكر في الاتصال بالمطورين لأي سؤال أو رغبة في رعاية هذا المشروع")
+            # response = st.session_state.chat_engine.chat(prompt)
+            # st.write(response.response)
+            # message = {"role": "assistant", "content": response.response}
+            # st.session_state.messages.append(message) # Add response to message history        
 # query = st.text_input("What would you like to know about your PDF?")
     
 # if query:
